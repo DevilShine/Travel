@@ -1,0 +1,17 @@
+.our-story {
+  &-wrap {
+    background-color: $red;
+  }
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  &-text {
+    color: $white;
+    max-width: 629px;
+  }
+  &-button {
+    color: $black-16d;
+    width: 269px;
+    height: 64px;
+  }
+}

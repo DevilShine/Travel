@@ -22,12 +22,16 @@ body {
   font-family: $PT-Serif;
 }
 .button {
+  text-align: center;
+  text-transform: uppercase;
+  border: 0;
   font-weight: 400;
   font-size: 22px;
   line-height: 26.82px;
   color: $black-16d;
   font-family: $Montserrat;
   background-color: $coffee-color;
+  border-radius: 5px;
 }
 input {
   font-family: $PT-Serif;

@@ -1,0 +1,20 @@
+.footer {
+  background-color: $black-16d;
+  &-wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  &-text {
+    color: $white;
+    &-red {
+      color: $red;
+    }
+  }
+  &-hd-text {
+    margin-top: 50px;
+    margin-bottom: 58px;
+  }
+}
