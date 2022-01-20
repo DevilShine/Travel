@@ -1,0 +1,51 @@
+body {
+  background-color: $white;
+}
+.conteiner {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 31px 15px;
+}
+.h1 {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 59px;
+  color: $black-1F;
+  font-family: $Montserrat;
+}
+.h5 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26.5px;
+  color: $black-16d;
+  font-family: $PT-Serif;
+}
+.button {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26.82px;
+  color: $black-16d;
+  font-family: $Montserrat;
+  background-color: $coffee-color;
+}
+input {
+  font-family: $PT-Serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26.5px;
+  appearance: none;
+  margin: 8px 0;
+  padding: 14.3px 0 15.7px 18.5px;
+  border: 0;
+  border-radius: 5px;
+  height: 57px;
+  width: 353px;
+  &::placeholder {
+    color: #B5B5B5;
+  }
+  &:focus-visible, :focus {
+    outline: none;
+    color: #A9A9A9;
+  }
+}

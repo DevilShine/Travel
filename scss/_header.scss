@@ -1,0 +1,98 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  background-color: $coffee-color;
+  &-head-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 26px;
+  }
+  &-hd-text {
+    font-weight: 400;
+    font-size: 88.32px;
+    line-height: 103.5px;
+    color: $red;
+    font-family: $Roboto;
+  }
+  &-navigation {
+    display: flex;
+    align-items: center;
+    &-link {
+      text-transform: uppercase;
+      margin: 1px;
+      padding: 7px 12px 8px 14px;
+      border-radius: 5px;
+      font-size: 18px;
+      line-height: 21.94px;
+      font-weight: 400;
+      color: $black-1B;
+      font-family: $Montserrat;
+      transition: 0.3s;
+      &:hover {
+        background-color: $red;
+        color: $white;
+      }
+    }
+  }
+}
+
+.beautiful {
+  &-header {
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 109.71px;
+    color: $black-16d;
+    font-family: $Montserrat;
+    max-width: 535px;
+    margin-bottom: 21px;
+    &-red {
+      color: $red;
+    }
+  }
+  &-text {
+    max-width: 491px;
+  }
+}
+
+.registration {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &-form {
+    padding: 26.82px 23px 28px 24px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    background-color: $red;
+    &-label {
+      font-family: $Montserrat;
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 26.82px;
+      text-align: center;
+      color: $white;
+    }
+    &-checbox {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      &-text {
+        margin-left: 22.5px;
+        color: $white;
+      }
+    }
+  }
+}
+
+input[type="checkbox"] {
+  appearance: auto;
+  width: 19px;
+  height: 18px;
+  background-color: $white;
+}
+
+input[type="submit"] {
+  background-color: $black-16d;
+  padding-left: 0;
+}

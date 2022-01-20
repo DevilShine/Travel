@@ -17,8 +17,63 @@
 <body>
   <div class="main-wrap">
     <header class="header">
-
+      <div class="conteiner header-head-wrap">
+        <h1 class="header-hd-text">
+          Travel
+        </h1>
+        <ul class="header-navigation">
+          <li class="header-navigation-item">
+            <a href="#" class="header-navigation-link">Home</a>
+          </li>
+          <li class="header-navigation-item">
+            <a href="#" class="header-navigation-link">About</a>
+          </li>
+          <li class="header-navigation-item">
+            <a href="#" class="header-navigation-link">Services</a>
+          </li>
+          <li class="header-navigation-item">
+            <a href="#" class="header-navigation-link">Gallery</a>
+          </li>
+          <li class="header-navigation-item">
+            <a href="#" class="header-navigation-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <div class="conteiner registration">
+        <div class="beautiful">
+          <p class="beautiful-header">
+            <span class="beautiful-header-red">TRAVEL IS </span>BEAUTIFUL
+          </p>
+          <p class="beautiful-text h5">
+            Lorem Ipsum is simply dummy text of the printing and
+            typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s
+          </p>
+        </div>
+        <form action="#" method="post" class="registration-form">
+          <label for="" class="registration-form-label">REQUEST A QUOTE</label>
+          <input type="text" name="Full Name" placeholder="Full Name" id="full-name" required>
+          <input type="email" name="message" placeholder="Email Address" id="message" required>
+          <input type="tel" min="0" name="Phone Number" list="tel-list" placeholder="Phone Number" id="number-phone"
+            pattern="+38\s[0-9]{3}\s[0-9]{3}[-][0-9]{2}[-][0-9]{2}" required>
+          <datalist id="tel-list">
+            <option value="+38 067 123-45-67" label="Phone number №1">
+            <option value="+38 050 123-45-68" label="Phone number №2">
+          </datalist>
+          <input type="text" placeholder="Country">
+          <div class="registration-form-checbox">
+            <input type="checkbox" name="assept" id="assept" required>
+            <p class="h5 registration-form-checbox-text">I accept the terms & conditions</p>
+          </div>
+          <input type="submit" value="SEND" class="registration-form-label">
+        </form>
+      </div>
     </header>
+    <main class="main">
+      <div class="our-services">
+
+      </div>
+    </main>
   </div>
 </body>
 
